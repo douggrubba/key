@@ -6,11 +6,17 @@
 
 ## alias
 
-`vim ~/.zshrc`:
+```
+vim ~/.zshrc
+```
 
-`alias key="node index.js"`
+```
+alias key="node index.js"
+```
 
-`source ~/.zshrc`
+```
+source ~/.zshrc
+```
 
 ## commands
 
