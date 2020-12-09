@@ -2,7 +2,9 @@
 
 ## install
 
-`git clone git@github.com:douggrubba/key.git && cd key && yarn`
+```
+git clone git@github.com:douggrubba/key.git && cd key && yarn
+```
 
 ## alias
 
