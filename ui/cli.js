@@ -16,4 +16,17 @@ const log = (argument, content) => {
   )
 }
 
+const logWOArg = (content) => {
+  cl(
+    `
+
+
+    ${chalk.hex(colors.blue['500'])(content)}
+
+
+    `
+  )
+}
+
 exports.log = log
+exports.logWOArg = logWOArg

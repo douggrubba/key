@@ -9,6 +9,9 @@ const cli = meow(`
     $ key <input>
   Argument
     $ key password, Generate a random password
+    $ key todo, make new todo item
+    $ key todos, list the todos
 `)
 
+// handle the different arguments that are coming in
 libSwitch.direct(_.head(cli.input))

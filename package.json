@@ -5,7 +5,9 @@
   "license": "MIT",
   "devDependencies": {
     "chalk": "^4.1.0",
+    "inquirer": "^7.3.3",
     "lodash": "^4.17.20",
-    "meow": "^8.0.0"
+    "meow": "^8.0.0",
+    "moment": "^2.29.1"
   }
 }
