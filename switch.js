@@ -8,6 +8,7 @@ const cli = require('./ui/cli')
 
 // libraries
 const todo = require('./src/todo')
+const weather = require('./src/weather')
 const password = require('./src/password')
 
 /**
@@ -53,6 +54,14 @@ const direct = (argument) => {
       .finally(() => {
         todo.allAsString()
       })
+  }
+
+  // weather
+  if (argument === 'weather') {
+    ;(async () => {
+      const str = await weather.current()
+      cli.log(argument, str)
+    })()
   }
 }
 

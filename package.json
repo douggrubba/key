@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "axios": "^0.21.0",
     "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
     "inquirer": "^7.3.3",
     "lodash": "^4.17.20",
     "meow": "^8.0.0",

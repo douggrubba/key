@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 'use strict'
+
+require('dotenv').config()
+
 const _ = require('lodash')
 const meow = require('meow')
 const libSwitch = require('./switch')
